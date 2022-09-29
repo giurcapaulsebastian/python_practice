@@ -24,6 +24,9 @@ print(user_name)
 result = [(letter,num) for letter in "abcd" for num in range(4)]
 print(result)
 
+result = [(letter,num) for letter,num in zip("abcd", range(4))]
+print(result)
+
 print(__name__)
 
 print(globals())
